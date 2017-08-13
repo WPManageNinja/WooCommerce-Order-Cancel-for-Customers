@@ -10,7 +10,6 @@
  * Tested up to: 4.8
  *
  * Text Domain: wco
- * Domain Path: /languages/
  *
  */
 
