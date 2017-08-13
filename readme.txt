@@ -53,6 +53,9 @@ Please create an issue in the github/support forum. I will try to provide suppor
 Yes you can! Join in on our [GitHub repository](https://github.com/WpManageNinja/WooCommerce-Order-Cancel-for-Customers) :)
 
 == Screenshots ==
+1. Admin Panel Settings
+2. Cancel Order Section in Order Details Page
+3. Email Copy to Admin Email Inbox
 
 
 == Changelog ==
@@ -60,3 +63,6 @@ Yes you can! Join in on our [GitHub repository](https://github.com/WpManageNinja
 = 1.0.0 - 2017-08-13 =
 - Init the plugin
 - Added basic features
+
+== Upgrade Notice ==
+No Upgrade Notice
