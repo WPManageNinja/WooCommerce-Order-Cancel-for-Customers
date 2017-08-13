@@ -42,6 +42,11 @@ if ( ! class_exists( 'WCOCancelOrder' ) ) :
          *
          */
         public function init_plugin() {
+
+
+
+            add_filter("plugin_action_links_".plugin_basename(__FILE__), array($this, 'wco_plugin_settings_link') );
+
             
             $cancelOrderStatus = get_option('wc_wco_settings_activate');
             if($cancelOrderStatus != 'yes') {
@@ -64,6 +69,13 @@ if ( ! class_exists( 'WCOCancelOrder' ) ) :
             add_filter('wco_notification_email_subject', array($this, 'parse_text_with_order_fields'), 10, 2);
             add_filter('wco_notification_email_body', array($this, 'parse_text_with_order_fields'), 10, 2);
         }
+
+        public function wco_plugin_settings_link($links) { 
+              $settings_link = '<a href="admin.php?page=wc-settings&tab=wco_settings">Settings</a>'; 
+              array_unshift($links, $settings_link); 
+              return $links; 
+        }
+          
     
         /**
          * Register New order status for Woocommerce
