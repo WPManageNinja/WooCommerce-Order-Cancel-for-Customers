@@ -55,7 +55,9 @@ Yes you can! Join in on our [GitHub repository](https://github.com/WpManageNinja
 == Screenshots ==
 1. Admin Panel Settings
 2. Cancel Order Section in Order Details Page
-3. Email Copy to Admin Email Inbox
+3. Cancel Status in All Orders Sections - User
+4. Cancel order in Admin Section
+5. Email Copy to Admin Email Inbox
 
 
 == Changelog ==
