@@ -153,7 +153,7 @@ if ( ! class_exists( 'WCOCancelOrder' ) ) :
 				'action'              => 'process_cancel_order'
 			) );
 
-			return site_url() . '?' . $urlData;
+			return apply_filters( 'wco_cancel_url', site_url() . '?' . $urlData );
 		}
 
 		/**
